@@ -3,7 +3,7 @@
 node('hpc4'){ // load library
     stage('test_Library') {
         
-        log.info 'Starting from master'
+        log.info 'Starting pipeline_from_branch'
         log.warning 'Nothing to do!'
         sayHello('Gabriele')
         
