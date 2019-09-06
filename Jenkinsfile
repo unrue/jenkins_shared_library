@@ -1,6 +1,6 @@
 @Library('jenkins_shared_library')_
 
-node('hpc4'){ // load library
+node('Galileo'){ // load library
     stage('test_Library') {
         
         log.info 'Starting from master test_2'
