@@ -1,4 +1,4 @@
-@Library('jenkins_shared_library')_
+@Library('jenkins_shared_library@test_branch')_
 
 node('Galileo'){ // load library
     stage('test_Library') {
