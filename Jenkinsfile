@@ -1,6 +1,6 @@
 @Library('jenkins_shared_library')_
 
-node('Galileo'){ // load library
+node('Galileo'){ 
     stage('test_Library') {
         
         log.info 'Starting from master test_2'
