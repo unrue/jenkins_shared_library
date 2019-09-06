@@ -3,7 +3,7 @@
 node('Galileo'){ // load library
     stage('test_Library') {
         
-        log.info 'Starting pipeline_from_branch test_2'
+        log.info 'Starting pipeline_from_branch test_2 '
         log.warning 'Nothing to do!'
         sayHello('Gabriele')
         
