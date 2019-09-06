@@ -1,6 +1,6 @@
 @Library('jenkins_shared_library@test_branch')_
 
-node('Galileo'){ // load library
+node('Galileo'){ 
     stage('test_Library') {
         
         log.info 'Starting pipeline_from_branch test_2 '
