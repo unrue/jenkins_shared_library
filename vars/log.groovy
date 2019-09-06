@@ -3,5 +3,5 @@ def info(message) {
 }
 
 def warning(message) {
-    echo "WARNING from master:: ${message}"
+    echo "WARNING from master: ${message}"
 }
