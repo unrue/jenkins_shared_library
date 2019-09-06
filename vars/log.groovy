@@ -1,5 +1,5 @@
 def info(message) {
-    echo "INFOO from master: ${message}"
+    echo "INFO from master: ${message}"
 }
 
 def warning(message) {
